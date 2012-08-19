@@ -20,4 +20,6 @@ There is also the capability of extracting these snippets into a XML format, suc
 	<address>http://en.wikipedia.org/wiki/Russel&amp;sa=U&amp;ei=AAExUL2cL6eQ0AWNjYDoDA&amp;ved=0CBMQFjAA&amp;usg=AFQjCNGzMEtbjEetCj6OYO7pq9Z__aGrHA</address>
 </docID> 
 
+For this component it has been used the opensource html parser HTMLCleaner: http://htmlcleaner.sourceforge.net/
+
 

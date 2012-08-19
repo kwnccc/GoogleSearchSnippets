@@ -6,6 +6,8 @@ You can use this component by only importing into your code the following line:
 JavaGoogleSearch jgs = new JavaGoogleSearch("term", 50); 
 where the first parameter is a String and the second one an integer.
 
+With this functionality the snippets return to you as results in a html format, in the root directory of the project.
+
 There is also the capability of extracting these snippets into a XML format, such as following:
 
 <docID>
