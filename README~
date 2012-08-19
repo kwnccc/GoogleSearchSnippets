@@ -1,0 +1,21 @@
+GoogleSearchSnippets is a component which can be used in order to extract the snippets from Google's search engine.
+
+By only setting the term that you want to search for and the number of results you want to get. 
+
+You can use this component by only importing into your code the following line:
+JavaGoogleSearch jgs = new JavaGoogleSearch("term", 50); 
+where the first parameter is a String and the second one an integer.
+
+There is also the capability of extracting these snippets into a XML format, such as following:
+
+<docID>
+	<title>
+		Russel - Wikipedia, the free encyclopedia
+	</title>
+	<body>
+		en.wikipedia.org/wiki/Russel - Cached - SimilarRussel. From Wikipedia, the free encyclopedia. Jump to: navigation, search.   Russel is an alternate 			spelling of Russell. Russel may refer to: ...
+	</body>
+	<address>http://en.wikipedia.org/wiki/Russel&amp;sa=U&amp;ei=AAExUL2cL6eQ0AWNjYDoDA&amp;ved=0CBMQFjAA&amp;usg=AFQjCNGzMEtbjEetCj6OYO7pq9Z__aGrHA</address>
+</docID> 
+
+
